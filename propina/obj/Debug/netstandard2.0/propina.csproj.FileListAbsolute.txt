@@ -1,0 +1,9 @@
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.csprojResolveAssemblyReference.cache
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.csproj.CoreCompileInputs.cache
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.AssemblyInfoInputs.cache
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.AssemblyInfo.cs
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.dll
+/Users/vivelabtunja25/Projects/propina/propina/obj/Debug/netstandard2.0/propina.pdb
+/Users/vivelabtunja25/Projects/propina/propina/bin/Debug/netstandard2.0/propina.deps.json
+/Users/vivelabtunja25/Projects/propina/propina/bin/Debug/netstandard2.0/propina.dll
+/Users/vivelabtunja25/Projects/propina/propina/bin/Debug/netstandard2.0/propina.pdb

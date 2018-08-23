@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:propina" x:Class="propina.MainPage">
+    <StackLayout Margin="1">
+        <!-- Place new controls here -->
+        <TableView Intent="Form">
+
+                <TableSection Title="DATOS GENERALES">
+
+                   <EntryCell x:Name="Etotal"
+                              Placeholder="Ingrese un total"
+                              Label="Total">
+                    </EntryCell>
+
+                    <EntryCell x:Name="Epropina"
+                               Placeholder="ingrese numero de propina"
+                               Label="Propina">
+                        
+                    </EntryCell>
+                     <EntryCell x:Name="Enpersonas"
+                                Placeholder="ingrese numero de personas"
+                                Label="Numero de personas">
+                        
+                    </EntryCell>
+                </TableSection>
+
+                <TableSection Title="CALCULAR">
+
+                    <ViewCell>
+                    <Button Text="Calcular"
+                            Clicked="Handle_Clicked"
+                            
+                            ></Button>
+                        </ViewCell>
+                    
+                </TableSection>
+                <TableSection Title="RESULTADO">
+
+                    <TextCell  x:Name="Rpropina"
+                               Text="Propina"
+                               Detail="0"
+                    ></TextCell>
+                    <TextCell  x:Name="Rtotal"
+                               Text="Total"
+                               Detail="0"
+                    ></TextCell>
+                    <TextCell  x:Name="Rprper"
+                               Text="Propina por persona"
+                               Detail="0"
+                    ></TextCell>
+                     <TextCell x:Name="Rtotalpers"
+                               Text="Total por persona"
+                               Detail="0"
+                    ></TextCell>
+                    
+                </TableSection>
+                    
+                        
+                
+        </TableView>
+        
+    </StackLayout>
+</ContentPage>
